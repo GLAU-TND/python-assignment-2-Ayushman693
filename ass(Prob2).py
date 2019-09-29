@@ -1,3 +1,5 @@
+#Problem 2 Solution
+
 def subArraySum(arr, n, sum): 
     for i in range(n): 
         sum1 = arr[i]     
