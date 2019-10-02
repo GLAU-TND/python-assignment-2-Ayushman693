@@ -9,10 +9,6 @@ l=len(arr)
 temp=[]
 inital=0
 new_str=""
-mod=0
-h=0
-
-
 
 for i in range(slen//k+1):
     substring=""
