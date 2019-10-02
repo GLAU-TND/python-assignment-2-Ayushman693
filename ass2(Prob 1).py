@@ -17,9 +17,10 @@ for i in range(slen//k+1):
     ar1=substring.split(" ")
     new_str=""
     for i in range(len(ar1)):
-        if (substring.find(ar1[i]) != -1):
+        if (arr.count(ar1[i])>= 1):
             new_str=new_str+ " " +ar1[i]
     temp.append(new_str.strip())
     inital=k
     k=k+val
 print(temp)
+
